@@ -1,0 +1,51 @@
+/* Nav */
+
+#nav ul {
+        /* removes bullet points */
+        list-style-type: none; 
+
+        overflow: hidden;
+        background-color: #282828;
+
+        /* bar stays at the top of the page when we scroll */
+        position: fixed;
+
+        /* ul object padding */
+        width: 100%;
+        top: 0; 
+        left: 0; 
+        margin: 0;
+        padding: 0;        
+    }
+
+    #nav li {
+        /* horizontal list */
+        float: left;
+    }
+
+    #nav li a {
+        display: block;
+        color: white;
+        padding: 14px 16px;
+        text-align: center;
+
+        /* remove underline from links */
+        text-decoration: none;
+    }
+
+    #nav li a:hover:not(.active){
+        background-color: #111;
+    }
+
+    #nav .active {
+        background-color: crimson;
+      }
+
+/*Everything else*/
+h1 {
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    background-color: crimson;
+    
+    }
