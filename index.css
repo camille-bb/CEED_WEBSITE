@@ -41,6 +41,8 @@
         background-color: crimson;
       }
 
+    
+
 /*Everything else*/
 h1 {
     color: #000000;
@@ -49,3 +51,38 @@ h1 {
     background-color: crimson;
     
     }
+
+h3 {
+    text-align: center;
+}
+
+#valueLeft{
+    width: 30%;
+    float: left;
+    align-items: center;
+    margin: 5px;
+    background-color: crimson;
+}
+
+#valueMid{
+    width: 30%;
+    float: left;
+    align-items: center;
+    margin: auto;
+    margin: 5px;
+    background-color: rgb(134, 30, 51);
+    box-shadow: 10px 10px 5px 12px lightblue;
+}
+
+#valueRight{
+    width: 30%;
+    float: left;
+    align-items: center;
+    margin: auto;
+    margin: 5px;
+    background-color: rgb(153, 92, 104);
+}
+
+#values{
+    margin: auto;
+}
