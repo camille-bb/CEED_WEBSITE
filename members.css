@@ -8,6 +8,7 @@ body
 .band-header {
   text-align: left;
   background-color: crimson;
+  font-family: monaco,Consolas,Lucida Console,monospace;
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
@@ -15,6 +16,7 @@ body
     float: left;
     width: 25%;
     padding: 0px;
+    font-family: monaco,Consolas,Lucida Console,monospace;
   }
   
 /* Clear floats after image containers */
@@ -34,7 +36,7 @@ body
 /*basic state of image descriptions*/
 p.child {
   position: absolute;
-  top: 45%;
+  top: 25%;
   left: 15%;
   right: 30%;
   color: #000000;
@@ -67,12 +69,18 @@ h1 {
   color: #000000;
   font-weight: bold;
   text-align: center;
+  font-family: monaco,Consolas,Lucida Console,monospace;
   
   }
 
 h2 {
   background-color: crimson;
   text-align: center;
+  font-family: monaco,Consolas,Lucida Console,monospace;
+}
+
+h3 {
+  font-family: monaco,Consolas,Lucida Console,monospace;
 }
 
 
@@ -88,6 +96,7 @@ h2 {
 
   overflow: hidden;
   background-color: #282828;
+  font-family: monaco,Consolas,Lucida Console,monospace;
 
 
   /* ul object padding */
@@ -111,6 +120,7 @@ h2 {
   color: white;
   padding: 14px 16px;
   text-align: center;
+  font-family: monaco,Consolas,Lucida Console,monospace;
 
   /* remove underline from links */
   text-decoration: none;
