@@ -56,33 +56,58 @@ h3 {
     text-align: center;
 }
 
-#valueLeft{
-    width: 30%;
-    float: left;
-    align-items: center;
-    margin: 5px;
+#welcome{
+    position: static;
+    width: 100%;
+    background-color: red;
+}
+
+.imgBox{
+    position: static;
+    border: 15px solid red;
+    height: 500px;
+  display: flex;
+
+}
+
+.imgBox img{
+    width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.values{
+    width: 100%;
+    display: flex;
+    position: static;
+}
+
+.box{
+    flex: 1;
+    margin: 1px;
+    padding: 10px;
     background-color: crimson;
 }
 
-#valueMid{
-    width: 30%;
-    float: left;
+#valueLeft{
     align-items: center;
-    margin: auto;
-    margin: 5px;
+    background-color: crimson;
+}
+
+#valueMiddle{
+    align-items: center;
     background-color: rgb(134, 30, 51);
-    box-shadow: 10px 10px 5px 12px lightblue;
 }
 
 #valueRight{
-    width: 30%;
-    float: left;
     align-items: center;
-    margin: auto;
-    margin: 5px;
     background-color: rgb(153, 92, 104);
 }
 
-#values{
-    margin: auto;
+#valueRight:hover + #valueMiddle {
+    background: blue;
 }
+
+
+
+
