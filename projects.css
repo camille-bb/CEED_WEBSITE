@@ -102,5 +102,4 @@ hr {
 img {
   display: inline-block;
   border: 5px solid transparent;
-  animation: border-animation 2s infinite alternate;
 }
