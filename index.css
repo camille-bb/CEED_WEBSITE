@@ -48,29 +48,33 @@ h1 {
     color: #000000;
     font-weight: bold;
     text-align: center;
-    background-color: crimson;
-    font-family: monaco;
+    font-family: Gill Sans, sans-serif;
+    font-size: 50px;
+    color: crimson;
     
     }
 
-    h2{
-        font-weight:bold;
-        font-family: monaco;
-    }
+h2{
+    font-weight:bold;
+    font-family: Gill Sans, sans-serif;
+}
 
 h3 {
-    font-family: monaco;
+    font-family: Gill Sans, sans-serif;
+ 
 }
 
 h4{
     font-family: monaco;
 }
 
+p{
+    font-family: monaco;
+}
+
 .welcome{
     position: static;
     width: 100%;
-    border: 5px solid gray;
-    background-color:  gray;
 }
 
 .imgBox{
@@ -93,24 +97,25 @@ img.group{
     display: flex;
     position: static;
     align-items: center;
+    
 }
 
 .val1{
-  
+    flex: 1;
 
     padding: 10px;
     background-color: crimson;
 }
 
 .val2{
-
+    flex: 1;
 
     padding: 10px;
     background-color: rgb(134, 30, 51);
 }
 
 .val3{
-
+    flex: 1;
 
     padding: 10px;
     background-color: rgb(153, 92, 104);
