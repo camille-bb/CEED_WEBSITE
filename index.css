@@ -75,7 +75,7 @@ h4{
 
 .imgBox{
     position: static;
-    border: 15px solid gray;
+    border: 20px solid gray;
     height: 500px;
   display: flex;
 
@@ -96,21 +96,21 @@ img.group{
 }
 
 .val1{
-    flex: 1;
+  
 
     padding: 10px;
     background-color: crimson;
 }
 
 .val2{
-    flex: 1;
+
 
     padding: 10px;
     background-color: rgb(134, 30, 51);
 }
 
 .val3{
-    flex: 1;
+
 
     padding: 10px;
     background-color: rgb(153, 92, 104);
