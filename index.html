@@ -36,34 +36,102 @@
             <br>
         </h1>
 
+    <div class="welcome">
+        <div>
+            <h2> Welcome to CEEDC!</h2>
+            <h3> <i>Cornell's premier club devoted to the newest technology in entertainment</i></h3>
 
+            
+        </div>
+    </div>
 
-        <h4> Welcome to CEEDC!</h3>
-        <p> <b>Cornell Entertainment Engineering & Design Club</b> 
-            is Cornell's premier club devoted to the newest technology in entertainment</p>
-        <b>Our Mission</b>
-        <p>The mission of <b>CEEDC</b> is to inspire the next generation of entertainment innovators through our three pillars.</p>
-        <b>CEEDC's Three Pillars</b>
-        <ul>
-            <li> Industry Education </li>
-            <li> Community Projects</li>
-            <li> Interdiciplinary Collaboration</li>
-        </ul>
-    </div> 
+    <div id="mission">
+        <h2>Our Mission</h2>
+        <h4>The mission of <b>CEEDC</b> is to inspire the next generation of entertainment innovators through our three pillars.</h4>
+    </div>
 
-    <img  src ="Photos/GROUP-PIC.JPG" style="width:75%; border:5px solid crimson;display: block; margin-left: auto; margin-right: auto; width: 50%;" >
+   
+    <div class = "pillars">
 
-    <!-- Footer Section -->
-    <footer style="background-color: #333; color: white; text-align: center; padding: 10px 0; margin-top: 20px;">
-        <p>2024 Cornell Entertainment Engineering and Design Club.</p>
-        <p>This organization is a registered student organization of Cornell University.</p>
-        <p>Follow us on 
-            <a href="https://instagram.com/cornelleed" style="color: lightblue;">Instagram</a>, 
-        </p>
-    </footer>
-    <!--End Footer-->
+        <div class="imgBox"><img class="group" src ="Photos/GROUP-PIC.JPG" style="width:90%; display: block; margin-left: auto; margin-right: auto; width: 70%;" ></div>
+
+        <div class="values">
+           
+            <div class="val1" id="valueLeft"> 
+                <h3> Industry Education </h3>
+                <p class = "ex2"> **explination** </p>
+            </div>
+        
+            <div class="val2" id="valueMiddle"> 
+                <h3> Community Projects </h3>
+                <p> **explination** </p>
+            </div>
+        
+            <div class="val3" id="valueRight"> 
+                <h3> Interdiciplinary Collaboration </h3>
+                <p > **explination** </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+
+        const subDiv1 = document.querySelector('.imgBox');
+        const val1 = document.querySelector('.val1');
+        const val2 = document.querySelector('.val2');
+        const val3 = document.querySelector('.val3');
+
+        val1.addEventListener('mouseenter', () => {
+        subDiv1.style.borderColor = 'crimson';
+        });
+
+        val1.addEventListener('mouseleave', () => {
+        subDiv1.style.borderColor = 'gray';
+        });
+
+        val2.addEventListener('mouseenter', () => {
+        subDiv1.style.borderColor = '#861e33';
+        });
+
+        val2.addEventListener('mouseleave', () => {
+        subDiv1.style.borderColor = 'gray';
+        });
+
+        val3.addEventListener('mouseenter', () => {
+        subDiv1.style.borderColor = '#995c68';
+        });
+
+        val3.addEventListener('mouseleave', () => {
+        subDiv1.style.borderColor = 'gray';
+        });
+    </script>
+    
+    <div id="team">
+        <h2>Our Team</h2>
+        <div id="engineering">
+            <h3>Engineering</h3>
+        </div>
+        <div id="software">
+            <h3>Software</h3>
+        </div>
+        <div id="business">
+            <h3>Buisness & Production</h3>
+        </div>
+    </div>
+    
 </body>
 
+ <!-- Footer Section -->
+ <footer style="background-color: #333; color: white; text-align: center; padding: 10px 0; margin-top: 20px;">
+    <p>2024 Cornell Entertainment Engineering and Design Club.</p>
+    <p>This organization is a registered student organization of Cornell University.</p>
+    <p>Follow us on 
+        <a href="https://instagram.com/cornelleed" style="color: lightblue;">Instagram</a>, 
+    </p>
+</footer>
+<!--End Footer-->
 
 
 <!--    <div style="margin-top:60;" >    </div>  --> 
