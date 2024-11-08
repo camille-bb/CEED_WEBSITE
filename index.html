@@ -36,53 +36,76 @@
             <br>
         </h1>
 
-
- <!-- 
-        <h4> Welcome to CEEDC!</h3>
-        <p> <b>Cornell Entertainment Engineering & Design Club</b> 
-            is Cornell's premier club devoted to the newest technology in entertainment</p>
-        <b>Our Mission</b>
-        <p>The mission of <b>CEEDC</b> is to inspire the next generation of entertainment innovators through our three pillars.</p>
-        <b>CEEDC's Three Pillars</b>
-        <ul>
-            <li> Industry Education </li>
-            <li> Community Projects</li>
-            <li> Interdiciplinary Collaboration</li>
-        </ul>
-    </div> -->
-
-    <div id="welcome">
+    <div class="welcome">
         <div>
             <h2> Welcome to CEEDC!</h2>
-            <p> <i>Cornell's premier club devoted to the newest technology in entertainment</i></p>
+            <h3> <i>Cornell's premier club devoted to the newest technology in entertainment</i></h3>
 
             
         </div>
     </div>
 
     <div id="mission">
-        <h3>Our Mission</h3>
+        <h2>Our Mission</h2>
         <h4>The mission of <b>CEEDC</b> is to inspire the next generation of entertainment innovators through our three pillars.</h4>
     </div>
 
-    <div class="imgBox"><img  src ="Photos/GROUP-PIC.JPG" style="width:90%; display: block; margin-left: auto; margin-right: auto; width: 70%;" ></div>
+    <div class = "pillars">
 
-    <div class="values">
-        <div class="box" id="valueLeft"> 
-            <h3> Industry Education </h3>
-            <p> **explination** </p>
+        <div class="imgBox"><img class="group" src ="Photos/GROUP-PIC.JPG" style="width:90%; display: block; margin-left: auto; margin-right: auto; width: 70%;" ></div>
+
+        <div class="values">
+           
+            <div class="val1" id="valueLeft"> 
+                <h3> Industry Education </h3>
+                <p class = "ex2"> **explination** </p>
+            </div>
+        
+            <div class="val2" id="valueMiddle"> 
+                <h3> Community Projects </h3>
+                <p> **explination** </p>
+            </div>
+        
+            <div class="val3" id="valueRight"> 
+                <h3> Interdiciplinary Collaboration </h3>
+                <p > **explination** </p>
+            </div>
+
         </div>
-    
-        <div class="box" id="valueMiddle"> 
-            <h3> Community Projects </h3>
-            <p> **explination** </p>
-        </div>
-    
-        <div class="box" id="valueRight"> 
-            <h3> Interdiciplinary Collaboration </h3>
-            <p> **explination** </p>
-        </div>
+
     </div>
+
+    <script>
+
+        const subDiv1 = document.querySelector('.imgBox');
+        const val1 = document.querySelector('.val1');
+        const val2 = document.querySelector('.val2');
+        const val3 = document.querySelector('.val3');
+
+        val1.addEventListener('mouseenter', () => {
+        subDiv1.style.borderColor = 'crimson';
+        });
+
+        val1.addEventListener('mouseleave', () => {
+        subDiv1.style.borderColor = 'gray';
+        });
+
+        val2.addEventListener('mouseenter', () => {
+        subDiv1.style.borderColor = '#861e33';
+        });
+
+        val2.addEventListener('mouseleave', () => {
+        subDiv1.style.borderColor = 'gray';
+        });
+
+        val3.addEventListener('mouseenter', () => {
+        subDiv1.style.borderColor = '#995c68';
+        });
+
+        val3.addEventListener('mouseleave', () => {
+        subDiv1.style.borderColor = 'gray';
+        });
+    </script>
     
     <div id="team">
         <h2>Our Team</h2>
@@ -96,7 +119,6 @@
             <h3>Buisness & Production</h3>
         </div>
     </div>
-
     
 </body>
 
