@@ -36,8 +36,8 @@ body
 /*basic state of image descriptions*/
 p.child {
   position: absolute;
-  top: 25%;
-  left: 15%;
+  top: 30%;
+  left: 20%;
   right: 30%;
   color: #000000;
   visibility: visible;
