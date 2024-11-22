@@ -29,6 +29,7 @@
     color: white;
     padding: 14px 16px;
     text-align: center;
+    font-family: monaco,Consolas,Lucida Console,monospace;
 
     /* remove underline from links */
     text-decoration: none;
@@ -83,10 +84,12 @@ h2 {
     color: black;
     text-align: center;
     margin: 0 auto;
+    font-family: monaco,Consolas,Lucida Console,monospace;
 }
 
 p {
     font-size: 12px;
+    font-family: monaco,Consolas,Lucida Console,monospace;
 }
 
 hr {
@@ -96,6 +99,7 @@ hr {
     width: 94%;
     height: 6px;
     background: crimson;
+    font-family: monaco,Consolas,Lucida Console,monospace;
 }
 
 img {
