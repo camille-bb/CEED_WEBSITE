@@ -37,7 +37,7 @@ body
 p.child {
   position: absolute;
   top: 30%;
-  left: 20%;
+  /*left: 30%;*/
   right: 30%;
   color: #000000;
   visibility: visible;
