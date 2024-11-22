@@ -9,7 +9,7 @@
 
         /* bar stays at the top of the page when we scroll */
         position: fixed;
-
+        font-family: monaco;
         /* ul object padding */
         width: 100%;
         top: 0; 
@@ -48,7 +48,7 @@ h1 {
     color: #000000;
     font-weight: bold;
     text-align: center;
-    font-family: Gill Sans, sans-serif;
+    font-family: monaco;
     font-size: 50px;
     color: crimson;
     
@@ -56,70 +56,77 @@ h1 {
 
 h2{
     font-weight:bold;
-    font-family: Gill Sans, sans-serif;
+    font-family: monaco,Consolas,Lucida Console,monospace;
 }
 
 h3 {
-    font-family: Gill Sans, sans-serif;
+    font-family: monaco,Consolas,Lucida Console,monospace;
  
 }
 
 h4{
-    font-family: monaco;
+    font-family: monaco,Consolas,Lucida Console,monospace;
 }
 
 p{
-    font-family: monaco;
+    font-family: monaco,Consolas,Lucida Console,monospace;
 }
 
-.welcome{
-    position: static;
-    width: 100%;
+.pillars{
+    display:grid;
+    grid-template-columns:1fr 1fr;
 }
 
 .imgBox{
     position: static;
-    border: 20px solid gray;
-    height: 500px;
-  display: flex;
-
+    border: 10px solid gray;
 }
-
-img.group{
-
-  width: 100%;
-  height: 100%;
+.imgBox img{
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;
   object-fit: contain;
 }
 
 .values{
     width: 100%;
-    display: flex;
-    position: static;
     align-items: center;
-    
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 .val1{
-    flex: 1;
 
-    padding: 10px;
-    background-color: crimson;
+    border: 10px solid crimson;
 }
 
 .val2{
-    flex: 1;
 
-    padding: 10px;
-    background-color: rgb(134, 30, 51);
+    border: 10px solid rgb(134, 30, 51);
 }
 
 .val3{
-    flex: 1;
 
-    padding: 10px;
-    background-color: rgb(153, 92, 104);
+    border: 10px solid rgb(153, 92, 104);
 }
+
+.team {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-auto-rows: 200px;
+    row-gap: 10px;
+}
+
+
+.teamType h3 {
+    color: red;
+    margin-left: 20px;
+}
+.teamType p {
+    margin-left: 20px;
+}
+
+
 
 
 
