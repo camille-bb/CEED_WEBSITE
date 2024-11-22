@@ -1,49 +1,46 @@
-/* Nav */
-
 #nav ul {
     /* removes bullet points */
-    list-style-type: none;
-
+    list-style-type: none; 
+  
     overflow: hidden;
     background-color: #282828;
-
-
+  
+  
     /* ul object padding */
     width: 100%;
-    top: 0;
-    left: 0;
+    top: 0; 
+    left: 0; 
     margin: 0;
-    padding: 0;
-
+    padding: 0;  
+    
     /* bar stays at the top of the page when we scroll */
     position: fixed;
-}
-
-#nav li {
+  }
+  
+  #nav li {
     /* horizontal list */
     float: left;
-}
-
-#nav li a {
+  }
+  
+  #nav li a {
     display: block;
     color: white;
     padding: 14px 16px;
     text-align: center;
-
+  
     /* remove underline from links */
     text-decoration: none;
-}
-
-#nav li a:hover:not(.active) {
+  }
+  
+  #nav li a:hover:not(.active){
     background-color: #111;
-}
-
-#nav .active {
+  }
+  
+  #nav .active {
     background-color: crimson;
-}
-
-/* End Nav */
-
+  }
+  
+  /* End Nav */
 
 @keyframes textColor {
     0% {
