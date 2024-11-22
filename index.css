@@ -45,14 +45,13 @@
 
 /*Everything else*/
 h1 {
-    color: #000000;
     font-weight: bold;
     text-align: center;
-    font-family: monaco;
-    font-size: 50px;
-    color: crimson;
-    
-    }
+    font-family: monaco, sans-serif;
+    font-size: 120px;
+    color: rgb(255, 255, 255);
+    height:100%
+}
 
 h2{
     font-weight:bold;
@@ -61,72 +60,80 @@ h2{
 
 h3 {
     font-family: monaco,Consolas,Lucida Console,monospace;
- 
 }
 
 h4{
     font-family: monaco,Consolas,Lucida Console,monospace;
 }
 
-p{
+p {
     font-family: monaco,Consolas,Lucida Console,monospace;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.pillars{
+
+.box{
     display:grid;
-    grid-template-columns:1fr 1fr;
-}
+    grid-template-columns:1fr 1fr 1fr;
 
-.imgBox{
-    position: static;
-    border: 10px solid gray;
-}
-.imgBox img{
-  display: block; 
-  margin-left: auto; 
-  margin-right: auto;
-  object-fit: contain;
-}
-
-.values{
-    width: 100%;
-    align-items: center;
-    display:grid;
-    grid-template-rows: 1fr 1fr 1fr;
-}
-
-.val1{
-
-    border: 10px solid crimson;
-}
-
-.val2{
-
-    border: 10px solid rgb(134, 30, 51);
-}
-
-.val3{
-
-    border: 10px solid rgb(153, 92, 104);
-}
-
-.team {
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    grid-auto-rows: 200px;
     row-gap: 10px;
 }
 
+.val{
+    float:left;
+    background-color: rgb(201, 201, 201);
+    border: 5px solid rgb(255, 255, 255);
+}
+
+
+.val:hover {
+    border: 10px solid crimson;
+    background-color: crimson;
+    color:white;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    grid-auto-rows: minmax(200px, auto);
+}
+
+.teamType {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
 .teamType h3 {
     color: red;
     margin-left: 20px;
+    font-size: 50px;
+    position: relative;
 }
 .teamType p {
-    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
 }
 
+.teamType {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px;
+    height: 100%; /* Ensures images scale properly */
+}
 
+.image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
 
-
-
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
