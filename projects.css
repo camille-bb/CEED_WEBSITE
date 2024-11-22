@@ -24,6 +24,10 @@
   float: left;
 }
 
+div {
+  font-family: monaco, Consolas, Lucida Console, monospace;
+}
+
 #nav li a {
   display: block;
   color: white;
