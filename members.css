@@ -65,17 +65,35 @@ img.child {
   color: #000000;
 }
 
+@keyframes textColor {
+  0% {
+    color: red;
+  }
+
+  50% {
+    color: black;
+  }
+
+  100% {
+    color: red;
+  }
+}
+
 h1 {
-  color: #000000;
   font-weight: bold;
   text-align: center;
+  font-size: 60px;
   font-family: monaco,Consolas,Lucida Console,monospace;
+  animation: textColor 4s infinite;
   
+
   }
 
 h2 {
-  background-color: crimson;
+  /*background-color: crimson;*/
+  color: #000000;
   text-align: center;
+  font-weight: bolder;
   font-family: monaco,Consolas,Lucida Console,monospace;
 }
 
