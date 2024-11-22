@@ -14,6 +14,7 @@
     left: 0;
     background-color: #ffffff;
     text-decoration: none;
+    font-family: monaco,Consolas,Lucida Console,monospace;
   }
   
   /* Control the right side */
@@ -21,6 +22,7 @@
     right: 0;
     background-color: crimson;
     text-decoration: none ;
+    font-family: monaco,Consolas,Lucida Console,monospace;
   }
   
   /* If you want the content centered horizontally and vertically */
@@ -31,6 +33,7 @@
     transform: translate(-50%, -50%);
     text-align: center;
     text-decoration: none ;
+    font-family: monaco,Consolas,Lucida Console,monospace;
   }
   
   /* Style the image inside the centered container, if needed */
