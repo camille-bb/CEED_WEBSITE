@@ -1,0 +1,22 @@
+How to add footer.html to your page:
+
+
+1. Pull the latest footer.html file
+
+2. Add to the end of the web page (html file):
+   ```code
+
+   <!-- Footer Section -->
+    <div id="footer"></div>
+
+    <script>
+    fetch('footer.html')
+        .then(response => response.text())
+        .then(data => {
+        document.getElementById('footer').innerHTML = data;
+        });
+    </script>
+    <!--End Footer-->
+
+    ```
+3. Done!
