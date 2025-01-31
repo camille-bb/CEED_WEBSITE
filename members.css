@@ -125,7 +125,8 @@ h3 {
   padding: 0;     
   
   /* bar stays at the top of the page when we scroll */
-  position: absolute;
+  position: fixed;
+  z-index: 1000000;
 }
 
 #nav li {

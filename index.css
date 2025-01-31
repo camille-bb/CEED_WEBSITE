@@ -9,6 +9,7 @@
 
         /* bar stays at the top of the page when we scroll */
         position: fixed;
+        z-index: 1000000;
         font-family: monaco;
         /* ul object padding */
         width: 100%;
