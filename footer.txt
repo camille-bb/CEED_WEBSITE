@@ -15,6 +15,14 @@ How to add footer.html to your page:
         .then(data => {
         document.getElementById('footer').innerHTML = data;
         });
+        // Fetch the CSS content
+        fetch('footer.css')
+                .then(response => response.text())
+                .then(css => {
+                    const style = document.createElement('style');
+                    style.innerHTML = css;
+                    document.head.appendChild(style);
+                });
     </script>
     <!--End Footer-->
 
