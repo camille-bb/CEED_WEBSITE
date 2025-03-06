@@ -8,10 +8,11 @@ const Navbar = () => {
       <div className="font-sans bg-white sticky top-0 z-20 mx-auto flex w-full items-center justify-between border-b p-4 flex-wrap">
         {/* Branding */}
         <div className="flex items-center space-x-4">
-          <img src="/Logos/main.png" alt="" className='h-20'></img>
-          <h1 className="text-red-800 font-bold text-7xl">
-            CEED
-          </h1>
+          <a href="/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+            <img src="/Logos/main.png" alt="" className='h-20'></img>
+            <h1 className="text-red-800 font-bold text-7xl">CEED</h1>
+          </a>
+          
         </div>
 
         {/* Navigation Links */}

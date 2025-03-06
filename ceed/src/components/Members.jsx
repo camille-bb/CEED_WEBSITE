@@ -8,6 +8,8 @@ const Members = () => {
     { name: 'Blank Name', role: 'Role', photo: '/Member_Photos/Empty2.png' },
     { name: 'Blank Name', role: 'Role', photo: '/Member_Photos/Empty2.png' },
     { name: 'Blank Name', role: 'Role', photo: '/Member_Photos/Empty2.png' },
+    { name: 'Blank Name', role: 'Role', photo: '/Member_Photos/Empty2.png' },
+    { name: 'Blank Name', role: 'Role', photo: '/Member_Photos/Empty2.png' },
   ];
 
   return (
@@ -24,8 +26,8 @@ const Members = () => {
             <li key={index} className="flex-wrap items-center gap-x-6">
               <img className="size-14 rounded-full" src={member.photo} alt={member.name} />
               <div>
-                <h3 className="text-base font-semibold tracking-tight text-gray-900">{member.name}</h3>
-                <p className="text-sm font-semibold text-indigo-600">{member.role}</p>
+                <h3 className="text-center text-base font-semibold tracking-tight text-gray-900">{member.name}</h3>
+                <p className="text-center text-sm font-semibold text-indigo-600">{member.role}</p>
               </div>
             </li>
           ))}
