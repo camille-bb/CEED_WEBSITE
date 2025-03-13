@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav>
       {/* Navbar container with Tailwind utility classes */}
-      <div className="font-sans bg-white sticky top-0 z-20 mx-auto flex w-full items-center justify-between border-b p-4 flex-wrap">
+      <div className="font-sans fixed bg-white sticky top-0 mx-auto flex w-full items-center justify-between border-b p-4 flex-wrap">
         {/* Branding */}
         <div className="flex items-center space-x-4">
           <a href="/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
