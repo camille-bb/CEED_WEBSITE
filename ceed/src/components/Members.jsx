@@ -8,7 +8,7 @@ const Members = () => {
 
   const memberlist = [
     { name: 'Benjamin Okoronkwo', role: 'President', photo: '/Member_Photos/Benjamin_headshot.jpeg', description: 'Hi I am Benjamin.'},
-    { name: 'Name1', role: 'Role', photo: '/Member_Photos/Empty2.png' , description: ""},
+    { name: 'Name1', role: 'Role', photo: '/Member_Photos/Empty2.png' , description: "Description: Major, Favorite class at Cornell so far, least favorite class, favorite dining hall, and one thing you love doing!"},
     { name: 'Name2', role: 'Role', photo: '/Member_Photos/Empty2.png' , description: ""},
     { name: 'Name3', role: 'Role', photo: '/Member_Photos/Empty2.png' , description: ""},
     { name: 'Name4', role: 'Role', photo: '/Member_Photos/Empty2.png' , description: ""},
