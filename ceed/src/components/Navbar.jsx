@@ -18,7 +18,8 @@ const Navbar = () => {
         {/* Navigation Links */}
         <div className="flex space-x-6">
           <Link to="/projects" className="text-red-800 hover:text-red-100 hover:bg-red-600 px-4 py-2 rounded text-xl">Projects</Link>
-          <Link to="/members" className="text-red-800 hover:text-red-100 px-4 py-2 hover:bg-red-600 rounded text-xl">Members</Link>
+          <Link to="/teams" className="text-red-800 hover:text-red-100 px-4 py-2 hover:bg-red-600 rounded text-xl">Teams</Link>
+          {/* <Link to="/members" className="text-red-800 hover:text-red-100 px-4 py-2 hover:bg-red-600 rounded text-xl">Members</Link> */}
           <Link to="/recruit" className="text-red-800 hover:text-red-100 px-4 py-2 hover:bg-red-600 rounded text-xl">Join Us</Link>
         </div>
       </div>

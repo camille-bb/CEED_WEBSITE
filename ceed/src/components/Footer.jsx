@@ -33,7 +33,7 @@ function Footer() {
                     <h2 class="mb-4 text-sm font-semibold text-gray-900 uppercase dark:text-white">Quick Links</h2>
                     <ul class="flex flex-col space-y-3 items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                         <li>
-                            <a href="/members" class="hover:underline me-4 md:me-6" rel= "noopener noreferrer">Members  </a>
+                            <a href="/teams" class="hover:underline me-4 md:me-6" rel= "noopener noreferrer">Teams  </a>
                         </li>
                         <li>
                             <a href="/projects" class="hover:underline me-4 md:me-6" rel= "noopener noreferrer">Projects  </a>
