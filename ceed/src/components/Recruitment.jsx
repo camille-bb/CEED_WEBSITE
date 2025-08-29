@@ -20,9 +20,6 @@ function Recruitment() {
           src="https://docs.google.com/forms/d/e/1FAIpQLSeRQb7CfBphnQMnwkOx6ABr_dFb-dKO_AbVh1VD0QTzkh0pLg/viewform?embedded=true"
           width="640"
           height="422"
-          frameBorder="0"
-          marginHeight="0"
-          marginWidth="0"
           className="rounded-xl shadow-lg border border-gray-200"
         ></iframe>
       </div>
