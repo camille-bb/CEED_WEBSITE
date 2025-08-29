@@ -48,7 +48,7 @@ function Footer() {
             {/*Rights Reserved*/}
             </div>
             <div class="border-gray-200 sm:mx-auto dark:border-gray-700" />
-            <div class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a href="/" class="hover:underline">CEED™</a>. All Rights Reserved.</div>
+            <div class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a href="/" class="hover:underline">CEED™</a>. This organization is registered student organization of Cornell University. All rrights reserved.</div>
         </div>
     </footer>
 
