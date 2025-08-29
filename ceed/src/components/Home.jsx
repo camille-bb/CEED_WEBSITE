@@ -41,7 +41,7 @@ function Home() {
           Cornell Entertainment Engineering & Design Club
         </h2>
         <p className="text-lg text-gray-800 text-center">
-          We are a team from all fields, engaging in hands-on projects that blend engineering,
+          We are a team from all fields, engaging in hands-on projects that mix engineering,
           design, and creativity to spark curiosity, build technical skills, and empower future
           innovators to push the boundaries of interactive entertainment.
         </p>
